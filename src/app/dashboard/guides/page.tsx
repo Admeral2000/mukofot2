@@ -24,13 +24,13 @@ const regions = [
 
 const tutorials = {
   Toshkent: {
-    title: "Toshkent viloyati uchun yo&apos;riqnoma",
-    description: "Toshkent viloyatidagi foydalanuvchilar uchun maxsus ko&apos;rsatmalar va qo&apos;llanmalar.",
+    title: "Toshkent viloyati uchun yo'riqnoma",
+    description: "Toshkent viloyatidagi foydalanuvchilar uchun maxsus ko&apos;rsatmalar va qo'llanmalar.",
     thumbnail: "/office.jpg",
   },
   Buxor: {
     title: "Buxor viloyati uchun yo&apos;riqnoma",
-    description: "Buxor viloyatidagi jarayonlar va tizimdan foydalanish bo&apos;yicha batafsil ma'lumotlar.",
+    description: "Buxor viloyatidagi jarayonlar va tizimdan foydalanish bo'yicha batafsil ma'lumotlar.",
     thumbnail: "/office.jpg",
   },
   // Add more tutorials for other regions as needed

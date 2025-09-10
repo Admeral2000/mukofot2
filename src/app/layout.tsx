@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mukofotlar Tizimi",
-  description: "o&apos;zbekiston Respublikasi mukofotlari tizimi",
+  description: "O'zbekiston Respublikasi mukofotlari tizimi",
 };
 
 export default function RootLayout({

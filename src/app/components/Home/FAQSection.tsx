@@ -8,17 +8,17 @@ const faqData = [
     id: 1,
     question: "Qanday boshlayaman?",
     answer:
-      "Platformaga ro&apos;yxatdan o&apos;tish uchun 'Kabinet' tugmasini bosing va kerakli ma'lumotlarni kiriting. Jarayon juda oddiy va tez amalga oshiriladi.",
+      "Platformaga ro'yxatdan o'tish uchun 'Kabinet' tugmasini bosing va kerakli ma'lumotlarni kiriting. Jarayon juda oddiy va tez amalga oshiriladi.",
   },
   {
     id: 2,
     question: "Kimlar ariza topshirishi mumkin?",
     answer:
-      "o&apos;zbekiston Respublikasi fuqarolari, xorijiy fuqarolar va yuridik shaxslar belgilangan tartibda ariza topshirishi mumkin.",
+      "O'zbekiston Respublikasi fuqarolari, xorijiy fuqarolar va yuridik shaxslar belgilangan tartibda ariza topshirishi mumkin.",
   },
   {
     id: 3,
-    question: "Qaysi hujjatlar kerak bo&apos;ladi?",
+    question: "Qaysi hujjatlar kerak bo'ladi?",
     answer:
       "Ariza topshirish uchun pasport, ma'lumotnoma, ish faoliyati haqida ma'lumotlar va boshqa tegishli hujjatlar talab qilinadi.",
   },
@@ -26,7 +26,7 @@ const faqData = [
     id: 4,
     question: "Fayl formatlari va hajm cheklovlari bormi?",
     answer:
-      "Qabul qilinadigan formatlar: PDF, JPG/PNG, DOCX (bozgan ZIP) qo&apos;llab-quvvatlanadi. Ruxsat etilgan format va hajm yuklash qoidalari aniq ko&apos;rsatiladi.",
+      "Qabul qilinadigan formatlar: PDF, JPG/PNG, DOCX (bozgan ZIP) qo'llab-quvvatlanadi. Ruxsat etilgan format va hajm yuklash qoidalari aniq ko'rsatiladi.",
   },
   {
     id: 5,

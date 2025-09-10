@@ -12,9 +12,9 @@ export function AwardsSection() {
     },
     {
       id: 2,
-      name: "\"Mard o&apos;g'lon\" davlat mukofoti",
+      name: "Mard o'g'lon davlat mukofoti",
       description:
-        "Bu mukofot vatani himoyasida paxta va faoliyat ko&apos;rsatgan yoshlarga beriladi. Mukofot har yili beriladi.",
+        "Bu mukofot vatani himoyasida paxta va faoliyat ko'rsatgan yoshlarga beriladi. Mukofot har yili beriladi.",
       image: "/mard-uglon-medal.png",
     },
     {

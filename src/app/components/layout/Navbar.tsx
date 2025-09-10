@@ -13,7 +13,7 @@ const navigationItems = [
   { name: "Asosiy", href: "/" },
   { name: "Biz haqimizda", href: "/about" },
   { name: "Mukofotlar", href: "/awards" },
-  { name: "Yo&apos;riqnomalar", href: "/guidelines" },
+  { name: "Yo'riqnomalar", href: "/guidelines" },
 ]
 
 export function Navbar() {

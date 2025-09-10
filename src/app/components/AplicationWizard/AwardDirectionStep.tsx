@@ -20,7 +20,7 @@ export default function AwardDirectionStep({ data, onUpdate, onNext, onPrev, onC
   const [errors, setErrors] = useState<Record<string, string>>({})
 
   const activityFields = [
-    "Sport bo&apos;yicha",
+    "Sport bo'yicha",
     "Fan va texnologiya",
     "Madaniyat va san'at",
     "Ta'lim sohasida",

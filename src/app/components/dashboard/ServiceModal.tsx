@@ -30,18 +30,18 @@ export default function ServiceModal({ isOpen, onClose, service }: ServiceModalP
     price: "Bepul",
     documents: [
       "Pasport nusxasi",
-      "Ariza (belgilangan shakl bo&apos;yicha)",
+      "Ariza (belgilangan shakl bo'yicha)",
       "Yutuqlarni tasdiqlovchi hujjatlar",
       "Tavsiyanoma (ish joyidan yoki ta'lim muassasasidan)",
     ],
     howItWorks: [
-      "Onlayn ariza to&apos;ldiring",
+      "Onlayn ariza to'ldiring",
       "Kerakli hujjatlarni yuklang",
-      "Ekspertlar tomonidan ko&apos;rib chiqiladi",
+      "Ekspertlar tomonidan ko'rib chiqiladi",
       "Natija haqida xabar beriladi",
     ],
-    legalBasis: "o&apos;zbekiston Respublikasi Prezidentining 2019-yil 6-fevraldagi PF-5649-son Farmoni",
-    organization: "o&apos;zbekiston Respublikasi Prezidenti Administratsiyasi",
+    legalBasis: "O'zbekiston Respublikasi Prezidentining 2019-yil 6-fevraldagi PF-5649-son Farmoni",
+    organization: "O'zbekiston Respublikasi Prezidenti Administratsiyasi",
     contact: {
       phone: "+998 71 239 15 25",
       email: "info@president.uz",

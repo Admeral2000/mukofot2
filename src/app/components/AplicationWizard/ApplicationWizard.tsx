@@ -191,7 +191,7 @@ export default function ApplicationWizard({ isOpen, onClose, service }: Applicat
             <ProgressIndicator
               steps={[
                 { id: 1, title: "Shaxsiy ma'lumotlar", isCompleted: currentStep > 1, isActive: currentStep === 1 },
-                { id: 2, title: "Mukofot yo&apos;nalishi", isCompleted: currentStep > 2, isActive: currentStep === 2 },
+                { id: 2, title: "Mukofot yo'nalishi", isCompleted: currentStep > 2, isActive: currentStep === 2 },
                 { id: 3, title: "Yutuqlarni tasdiqlash", isCompleted: currentStep > 3, isActive: currentStep === 3 },
                 { id: 4, title: "Ma'lumotlarni tasdiqlash", isCompleted: currentStep > 4, isActive: currentStep === 4 },
               ]}

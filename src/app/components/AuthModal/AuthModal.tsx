@@ -51,13 +51,13 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
     if (!phoneNumber.trim()) {
       errors.phone = "Telefon raqam talab qilinadi"
     } else if (!/^\+?998[0-9]{9}$/.test(phoneNumber.replace(/\s/g, ''))) {
-      errors.phone = "To&apos;g'ri telefon raqam formatini kiriting"
+      errors.phone = "To'g'ri telefon raqam formatini kiriting"
     }
 
     if (!password.trim()) {
       errors.password = "Parol talab qilinadi"
     } else if (password.length < 4) {
-      errors.password = "Parol kamida 4 ta belgidan iborat bo&apos;lishi kerak"
+      errors.password = "Parol kamida 4 ta belgidan iborat bo'lishi kerak"
     }
 
     setFormErrors(errors)
