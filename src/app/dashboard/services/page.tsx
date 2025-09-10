@@ -7,10 +7,10 @@ import {ArrowRight} from "lucide-react"
 import ServiceModal from "@/app/components/dashboard/ServiceModal"
 import {useAuth} from "@/context/AuthContext";
 import api from "@/lib/api";
-
 interface Rewards {
     id: number;
     name: string;
+    title: string;
     description: string;
     image: string;
     applications_count: number;
