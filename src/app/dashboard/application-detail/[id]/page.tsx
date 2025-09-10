@@ -57,7 +57,7 @@ interface IApplicationDetails {
 
 export default function ApplicationDetail({params}: Props) {
     const [detail, setDetail] = useState<IApplicationDetails>();
-    const {id} = React.use(params);
+    const {id} = params;
 
 
     const getApplicationDetails = async () => {
