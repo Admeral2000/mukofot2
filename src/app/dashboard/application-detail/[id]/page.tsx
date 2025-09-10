@@ -111,26 +111,30 @@ export default function ApplicationDetail({params}: Props) {
                         className="col-span-6 text-[20px] text-white">{detail?.faoliyat_malumotlari.faoliyat_haqida}</div>
                     {
                         detail?.hujjatlar.tavsiya_xati.mavjud && (
-                            <>
-                                <div className="col-span-6 text-[20px] text-white">Tavsiya xati</div>
-                                <a className='col-span-6 text-[20px] text-white'
-                                   href={detail?.hujjatlar.tavsiya_xati.fayl_url}>{detail?.hujjatlar.tavsiya_xati.fayl_nomi}</a>
-                            </>
-                        )
-                    }
-
-                    {
-                        detail?.hujjatlar.sertifikatlar.length > 0 && (
-                            <>
-                                <div className="col-span-6 text-[20px] text-white">Sertifikatlar</div>
-                                <div className="col-span-6 text-[20px] text-white flex flex-col gap-2">
-                                    {detail?.hujjatlar.sertifikatlar.map(item => {
-                                        return (
-                                            <a href={item.fayl_url} key={item.id}>{item.fayl_nomi}</a>
-                                        );
-                                    })}
-                                </div>
-                            </>
+                                    <>
+                                        <div className="col-span-6 text-[20px] text-white">Tavsiya xati</div>
+                                        {detail?.hujjatlar.tavsiya_xati.mavjud && (
+                                            <div className="col-span-6 text-[20px] text-white">
+                                                <a href={detail.hujjatlar.tavsiya_xati.fayl_url || undefined}>
+                                                    Tavsiya xati
+                                                </a>
+                                            </div>
+                                        )}
+                                        <div className="col-span-6 text-[20px] text-white">Sertifikatlar</div>
+                                        <div className="col-span-6 text-[20px] text-white flex flex-col gap-2">
+                                            {detail?.hujjatlar.sertifikatlar?.length ? (
+                                                detail.hujjatlar.sertifikatlar.map(item => {
+                                                    return (
+                                                        <a href={item.fayl_url || undefined} key={item.id}>
+                                                            {item.fayl_nomi}
+                                                        </a>
+                                                    );
+                                                })
+                                            ) : (
+                                                <span className="text-gray-400">Sertifikatlar mavjud emas</span>
+                                            )}
+                                        </div>
+                                    </>
                         )
                     }
 
